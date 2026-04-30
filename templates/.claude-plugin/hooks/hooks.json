@@ -10,6 +10,15 @@
             "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/block-rm.sh"
           }
         ]
+      },
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/inject-style.sh"
+          }
+        ]
       }
     ]
   }
