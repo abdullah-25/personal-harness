@@ -1,1 +1,8 @@
-{}
+{
+  "name": "my-personal-harness",
+  "description": "A personal plugin to code based on my style",
+  "version": "1.0.0",
+  "author": {
+    "name": "Abdullah Imran"
+  }
+}
